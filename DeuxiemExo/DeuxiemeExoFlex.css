@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(255, 0, 191);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    display: flex;
+    background-color: rgba(154,205,50,255);
+    padding-left: 10px;
+    height: 20vh;
+}
+
+.Blanc{
+    background-color: white;
+}
+.Footer{
+    display: flex;
+    background-color: rgba(154,205,50,255);
+    padding-left: 10px;
+    height: 20vh;
+}

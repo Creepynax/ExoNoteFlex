@@ -13,9 +13,49 @@ body{
     height: 20vh;
 }
 
+.mid{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+}
+
 .Blanc{
+    display: flex;
+    flex: 7;
     background-color: white;
 }
+
+.Aside{
+    display: flex;
+    background-color: blue;
+    flex: 3;
+    color: white;
+    padding-left: 15px;
+}
+
+.Rouge{
+    display: flex;
+    background-color: rgba(255,0,0,255);
+    flex: 3;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.menuCliquable{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a:hover{
+    background-color: rgba(255,192,203,255);
+    color: rgba(255,0,0,255);
+}
+
 .Footer{
     display: flex;
     background-color: rgba(154,205,50,255);

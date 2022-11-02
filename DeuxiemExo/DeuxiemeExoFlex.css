@@ -6,35 +6,102 @@ body{
     padding: 0px;
 }
 
-.Header{
+#Header{
     display: flex;
     background-color: rgba(154,205,50,255);
     padding-left: 10px;
     height: 20vh;
 }
 
-.mid{
+#mid{
     display: flex;
     flex-direction: row;
     height: 60vh;
 }
 
-.Blanc{
+#Blanc{
     display: flex;
     flex-direction: column;
     flex: 7;
     background-color: white;
 }
 
-.ensembleBloc{
-
+#ensembleBloc{
+    display: flex;
+    justify-content: flex-end;
 }
-.blocTexte{
+
+#bloc5{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 60px;
+    margin-bottom: 45px;
+    margin-top: 55px;
+    background-color: rgba(128,139,141,255);
+    font-size: 10px;
+}
+
+#bloc4{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 60px;
+    margin-bottom: 45px;
+    margin-top: 55px;
+    background-color: rgba(190,195,199,255);
+    font-size: 10px;
+}
+
+#bloc3{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(193,57,43,255);
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#bloc2{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 60px;
+    margin-bottom: 45px;
+    margin-top: 55px;
+    background-color: rgba(213,84,1,255);
+    font-size: 10px;
+}
+
+#bloc1{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 60px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+    margin-top: 55px;
+    background-color: rgba(244,156,20,255);
+    font-size: 10px;
+}
+
+#blocTexte{
     color: red;
 font-size: small;
 }
 
-.Aside{
+#Aside{
     display: flex;
     background-color: blue;
     flex: 3;
@@ -42,7 +109,7 @@ font-size: small;
     padding-left: 15px;
 }
 
-.Rouge{
+#Rouge{
     display: flex;
     background-color: rgba(255,0,0,255);
     flex: 3;
@@ -65,7 +132,7 @@ a:hover{
     color: rgba(255,0,0,255);
 }
 
-.Footer{
+#Footer{
     display: flex;
     background-color: rgba(154,205,50,255);
     padding-left: 10px;

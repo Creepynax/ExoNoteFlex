@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TroisiemeExoFlex.css">
+    <title>TroisiemeExoFLex</title>
+</head>
+<body>
+
+    <!-- Bloc contenant tous les éléments du formulaire -->
+    <div class="ensembleFormulaire">
+
+        <!-- Bloc contenant la partie gauche du formulaire avec 
+            des cases à remplir  -->
+        <div class="formulaireEcrire">
+            <p>Name <input type="text" class="Name"></p>
+            <p>Phone <input type="text" class="Phone"></p>
+            <p>Email <input type="email" class="Email"></p>
+            <p>Pickup Date/Time <input type="datetime-local" class="DateTime"></p>
+            <p>Pickup Place 
+                <select name="Place" id="Place" class="PickupPlace">
+                <option value="">Select One</option>
+                </select></p>
+            <p>Dropoff Place <input type="text" class="DropoffPlace"></p>
+        </div>
+
+        <!-- Bloc contenant la partie droite du formulaire contenant des 
+            boutons et des cases à cocher -->
+        <div class="formulaireCocher">
+            <p> Which taxi do you require? <br> <br>
+            <input type="radio" name="boutonRadio" id="Car">
+            <label for="Car">Car</label> <br>
+            <input type="radio" name="boutonRadio" id="Van">
+            <label for="Van">Van</label> <br>
+            <input type="radio" name="boutonRadio" id="Tuktuk">
+            <label for="Tuktuk">Tuk Tuk</label> <br>
+            <br>
+            Extras <br> <br>
+            <input type="checkbox" name="boutonCheckbox" id="BabySeat">
+            <label for="BabySeat">Baby Seat</label><br>
+            <input type="checkbox" name="boutonCheckbox" id="WheelChair">
+            <label for="WheelChair">Wheel Chair Access</label><br>
+            <input type="checkbox" name="boutonCheckbox" id="StockTip">
+            <label for="StockTip">Stock Tip</label><br>
+            </p>
+        </div>
+    </div>
+
+    <!-- Bouton de validation du formulaire -->
+    <div class="blocSubmit">
+        <a href=""class="Submit">Submit Booking</a>
+    </div>
+</body>
+</html>

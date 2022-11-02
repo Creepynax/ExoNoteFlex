@@ -6,6 +6,10 @@ body{
     padding: 0px;
 }
 
+
+
+/* Style du Header en haut de la page */
+
 #Header{
     display: flex;
     background-color: rgba(154,205,50,255);
@@ -13,11 +17,19 @@ body{
     height: 20vh;
 }
 
+
+
+/* Style du centre de la page avec les 3 blocs de couleurs et leurs éléments */
+
 #mid{
     display: flex;
     flex-direction: row;
     height: 60vh;
 }
+
+
+
+/* Bloc Blanc avec le bloc contenant la suite de chiffre et le texte */
 
 #Blanc{
     display: flex;
@@ -36,7 +48,7 @@ body{
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 8px;
     padding-right: 60px;
     margin-bottom: 45px;
     margin-top: 55px;
@@ -49,7 +61,7 @@ body{
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 8px;
     padding-right: 60px;
     margin-bottom: 45px;
     margin-top: 55px;
@@ -74,7 +86,7 @@ body{
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 8px;
     padding-right: 60px;
     margin-bottom: 45px;
     margin-top: 55px;
@@ -87,7 +99,7 @@ body{
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 8px;
     padding-right: 60px;
     margin-right: 10px;
     margin-bottom: 45px;
@@ -101,6 +113,9 @@ body{
 font-size: small;
 }
 
+
+/* Bloc Bleu contenant Aside */
+
 #Aside{
     display: flex;
     background-color: blue;
@@ -108,6 +123,10 @@ font-size: small;
     color: white;
     padding-left: 15px;
 }
+
+
+
+/* Bloc Rouge contenant les boutons Menus */
 
 #Rouge{
     display: flex;
@@ -131,6 +150,10 @@ a:hover{
     background-color: rgba(255,192,203,255);
     color: rgba(255,0,0,255);
 }
+
+
+
+/* Style du Footer du bas de la page */
 
 #Footer{
     display: flex;

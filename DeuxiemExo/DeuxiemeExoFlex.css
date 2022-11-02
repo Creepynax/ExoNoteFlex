@@ -29,7 +29,7 @@ body{
 
 
 
-/* Bloc Blanc avec le bloc contenant la suite de chiffre et le texte */
+/* Bloc Blanc avec le bloc contenant la suite de chiffre ascendant et le texte */
 
 #Blanc{
     display: flex;
@@ -110,13 +110,13 @@ body{
 
 #blocTexte{
     color: red;
-font-size: small;
+    font-size: small;
 }
 
 
 /* Bloc Bleu contenant Aside */
 
-#Aside{
+#Bleu{
     display: flex;
     background-color: blue;
     flex: 3;
